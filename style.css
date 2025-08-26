@@ -1,0 +1,54 @@
+
+/*Importamos la tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
+/*Aplicado a todo las pantallas*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Diseño del cuerpo completo*/
+body{
+    background-color: hsl(212, 45%, 89%);   
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/*Diseño de la tarjeta*/
+.decoration{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    max-width: 320px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 15px rgb(0, 0, 0, 0.1);
+}
+
+/*Modificacion de la imagen*/
+.decoration img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/*Tamaño, color, margen y anchura del h1*/
+
+.decoration h1{
+    font-size: 1.25rem;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+/*Tamaño, color y anchura del parrafo*/
+.decoration p{
+    font-size: 0.94rem;
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
+}
+
+/*Media queries*/
