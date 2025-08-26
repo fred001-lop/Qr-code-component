@@ -1,6 +1,7 @@
 
 /*Importamos la tipografia*/
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 
 /*Aplicado a todo las pantallas*/
 *{
@@ -23,8 +24,8 @@ body{
 .decoration{
     background-color: hsl(0, 0%, 100%);
     width: 100%;
-    max-width: 320px;
-    padding: 20px;
+    max-width: 290px;
+    padding: 12px 15px 24px 15px;
     border-radius: 20px;
     text-align: center;
     box-shadow: 0 10px 15px rgb(0, 0, 0, 0.1);
@@ -34,7 +35,7 @@ body{
 .decoration img{
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 /*Tamaño, color, margen y anchura del h1*/
 
@@ -51,4 +52,32 @@ body{
     font-weight: 400;
 }
 
-/*Media queries*/
+/*Media queries celulares*/
+
+@media (max-width: 375px) {
+    .decoration{
+        padding: 16px;
+    }
+    
+    .decoration h1{
+        font-size: 1.1rem;
+    }
+    .decoration p{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 1024px){
+    .decoration{
+        max-width: 380px;
+        padding: 30px;
+    }
+
+    .decoration h1{
+        font-size: 1.5rem;
+    }
+
+    .decoration p{
+        
+    }
+}
