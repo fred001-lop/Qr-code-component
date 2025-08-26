@@ -25,7 +25,7 @@ body{
     background-color: hsl(0, 0%, 100%);
     width: 100%;
     max-width: 290px;
-    padding: 12px 15px 24px 15px;
+    padding: 16px 16px 24px 16px;
     border-radius: 20px;
     text-align: center;
     box-shadow: 0 10px 15px rgb(0, 0, 0, 0.1);
@@ -50,13 +50,14 @@ body{
     font-size: 0.94rem;
     color: hsl(216, 15%, 48%);
     font-weight: 400;
+    line-height: 1.4;
 }
 
 /*Media queries celulares*/
 
 @media (max-width: 375px) {
     .decoration{
-        padding: 16px;
+        padding: 14px 12px 20px 12px;
     }
     
     .decoration h1{
@@ -69,15 +70,14 @@ body{
 
 @media (max-width: 1024px){
     .decoration{
-        max-width: 380px;
-        padding: 30px;
+        padding: 20px 20px 28px 20px;
     }
 
     .decoration h1{
-        font-size: 1.5rem;
+        font-size: 1.35rem;
     }
 
-    .decoration p{
-        
+    .decoration p{  
+        font-size: 1rem;
     }
 }
